@@ -36,15 +36,14 @@ header {
 
 header nav ul li {
   display: inline;
-  text-align: center;
 }
 
 header nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
-  margin: 0 20px;
+  font-size: 15px;
+  margin: 0 90px;
 }
 
 /*========================================
@@ -210,11 +209,11 @@ header nav a {
 *
 *=========================================*/
 footer {
-  background: red;
+  background: #333;
   padding: 10px 30px;
   text-align: right;
 }
 
 footer img {
-  width: 45px;
+  width: 40px;
 }

@@ -1,0 +1,10 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Menlo, Consolas, DejaVu Sans Mono, monospace, molly_sans"
+    softWrap: true
+  "exception-reporting":
+    userId: "21d49db6-70e1-4aa8-9b10-22e22821088e"
+  welcome:
+    showOnStartup: false

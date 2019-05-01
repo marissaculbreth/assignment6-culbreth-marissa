@@ -16,7 +16,7 @@ h1 {
 }
 
 .me {
-  text-align: left;
+  float: left;
 }
 
 .me:hover {
@@ -30,6 +30,12 @@ h1 {
   font-size: 20px;
 }
 
+.star {
+  animation: star 9s forwards infinite linear;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -350px;
+}
 .about {
   text-decoration: underline;
 }
@@ -88,4 +94,21 @@ h3 {
 	padding: 30px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.footer {
+	text-align: center;
+	background: grey;
+	color: white;
+	font-size: 30px;
+	border-radius: 30px;
+}
+
+@keyframes star {
+  from {
+    transform: translatex(50px);
+  }
+  to {
+    transform: translatex(900px);
+  }
 }

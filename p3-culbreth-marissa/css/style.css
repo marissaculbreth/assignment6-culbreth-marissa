@@ -65,5 +65,13 @@ p {
   background: grey;
   padding: 20px;
   margin-top: 30px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
+}
+
+.mywork {
+  margin: 40px;
+}
+
+.grad {
+  margin-left: 30px;
 }

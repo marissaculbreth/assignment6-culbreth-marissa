@@ -26,14 +26,12 @@ h1 {
 
 .name {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 20px;
-  margin: 20px;
 }
 
 .about {
   text-decoration: underline;
-  margin-left: 20px;
 }
 
 .first-section {
@@ -44,34 +42,50 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 30px;
-    border
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  margin: 20px;
+	font-size: 15px;
 }
 
 .work {
   text-decoration: underline;
-  margin-left: 20px;
 }
 
 .second-section {
   background: grey;
   padding: 20px;
+  padding-bottom: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.mywork {
-  margin: 40px;
+.third-section {
+  background: grey;
+  padding: 20px;
+	color: white;
 }
 
-.grad {
-  margin-left: 30px;
+.resume {
+  text-decoration: underline;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 12px;
+}
+
+.fourth-section {
+	background: grey;
+	color: white;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }

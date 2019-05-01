@@ -20,6 +20,10 @@ h1 {
   transition: 2s;
 }
 
+.me {
+	clear: left;
+}
+
 .name {
   color: white;
   font-family: 'Karla', sans-serif;
@@ -27,10 +31,10 @@ h1 {
 }
 
 .star {
-  animation: star 9s forwards infinite linear;
+  animation: star 6s forwards infinite linear;
   position: absolute;
   margin-top: 30px;
-  margin-left: -350px;
+  margin-left: -600px;
 }
 
 .nav li {
@@ -57,6 +61,7 @@ h1 {
 .first-section {
   background: grey;
   padding: 20px;
+	margin: 80px;
 }
 
 h2 {
@@ -70,6 +75,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   color: white;
 	font-size: 15px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .work {
@@ -80,14 +87,15 @@ p {
   background: grey;
   padding: 20px;
   padding-bottom: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 80px;
+
 }
 
 .third-section {
   background: grey;
   padding: 20px;
 	color: white;
+	margin: 80px;
 }
 
 .resume {
@@ -106,29 +114,44 @@ h3 {
 	padding: 20px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	margin: 80px;
 }
 
 .contact {
 	font-family: 'Karla', sans-serif;
 }
 
+.video {
+	background: grey;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin: 130px;
+	padding: 20px;
+	float:left;
+	overflow: auto;
+}
+
 .footer {
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
 	background: grey;
 	color: white;
 	font-size: 100px !important;
 	border-radius: 100px;
+	padding-right: 30px;
+	text-align: center;
 }
 
 .contact:after {
 	font-weight: bold;
 }
 
+
+
 h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
+
 @keyframes star {
   from {
     transform: translatex(20px);

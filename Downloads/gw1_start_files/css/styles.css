@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header, h1, h3, h4, h5 {
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 15px;
+}
+
+header {
+  background: #003366;
+  padding: 20px;
+  margin: 120px 120px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  font-size: 12px;
+  text-align: center;
+  background: grey;
+}
+
+ul li {
+  display: inline;
+  font-size: 12px;
+  padding: 20px;
+}
+
+a {
+    color: #8B0000;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #8B0000;
+  font-size: 25px;
+}
+
+section {
+  background: white;
+  margin: 120px 120px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+img {
+  float: right;
+  padding: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+aside {
+  float: right;
+  width: 300px;
+  background: lightgray;
+  margin: 120px 120px;
+  padding: 20px;
+}
+
+figcaption {
+  float: right;
+  color: red;
+  font-style: italic;
+}
+
+footer {
+  margin: 50px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  background: #8B0000;
+}

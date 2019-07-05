@@ -155,6 +155,18 @@ section h3 {
 			text-decoration: underline;
 }
 
+section h2 {
+  font-size: 1rem;
+}
+
+section.gallery img {
+  width: 40%;;
+}
+
+span.lb-caption {
+  font-size: 1.5rem !important;
+  font-family: 'Lato', sans-serif;
+}
 
 footer {
 	background: #808080;
@@ -213,6 +225,10 @@ footer {
 	.about p {
 		font-size: 1rem;
 	}
+
+  section.gallery img {
+    width: 50%;;
+  }
 
 }
 
@@ -285,6 +301,12 @@ footer {
 	section p {
 		font-size: 1.2rem;
 	}
+
+  section.gallery img {
+    width: 20%;
+    display: inline;
+  }
+
 
 }
 

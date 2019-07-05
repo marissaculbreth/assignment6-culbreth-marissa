@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+  background-image: url(../background.jpg);
+}
+
+h1 {
+	color: white;
+	font-family: 'Handlee', cursive;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	text-shadow: 2px 2px 4px #808080;
+}
+
+h2 {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+h1, h2 {
+	letter-spacing: .2rem;
+}
+
+
+/* --- MOBILE/HAMBURGER MENU STYLES --- */
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+/* --- END MOBILE/HAMBURGER MENU STYLES --- */
+
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	display: inline;
+	font-family: 'Handlee', cursive;
+	color: white;
+	text-align: center;
+	list-style-type: none;
+}
+
+.menu {
+	background: #808080;
+	margin-bottom: 3%;
+}
+
+.desktop-menu {
+	display: none;
+}
+
+h3 {
+	font-family: 'Handlee', cursive;
+	color: white;
+	background: #808080;
+	margin: 0 0 3% 10%;
+	width: 80%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.about {
+	font-size: 1.1rem;
+}
+
+.about p {
+	color: white;
+	background: rgba(128, 128, 129, 0.8);
+	padding: 3%;
+	font-family: 'Lato', sans-serif;
+	margin: 0 10%;
+	font-size: .8rem;
+	font-weight: bold;
+}
+
+img {
+	max-width: 60%;
+	padding: 4%;
+	display: block;
+	margin: auto;
+}
+
+.photo {
+	width: 50%;
+	max-width: 60%;
+	margin: 5% auto 5% auto;
+}
+
+figcaption {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.contact {
+	text-align: center;
+	padding: 2%;
+	color: white;
+	background: rgba(128, 128, 129, 0.8);
+	font-family: 'Lato', sans-serif;
+}
+
+section h3 {
+			text-decoration: underline;
+}
+
+
+footer {
+	background: #808080;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	margin-top: 3%;
+	clear: both;
+}
+
+
+
+
+/* ------ START 600PX MEDIA QUERY ------ */
+
+@media (min-width: 600px) {
+
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 3.5%;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+		margin-bottom: 4%;
+		background: #808080;
+		width: 50%;
+		margin: auto;
+	}
+
+	.desktop-menu {
+		display: block;
+		text-align: center;
+		font-size: 1rem;
+		background: #808080;
+		padding: 1%;
+		width: 100%;
+		margin-bottom: 3%;
+		margin-top: 2%;
+	}
+
+	nav ul li {
+		margin: auto 3% auto 3%;
+		font-size: 1rem;
+	}
+
+	.menu, .hamburger, .cross {
+		display: none;
+	}
+
+	.about {
+		font-size: 1.3rem;
+	}
+
+	.about p {
+		font-size: 1rem;
+	}
+
+}
+
+/* ------ END 600PX MEDIA QUERY ------ */
+
+
+
+
+/* ------ START 900PX MEDIA QUERY ------ */
+
+@media (min-width: 900px) {
+
+	h1 {
+		padding: 1%;
+		margin-top: 10%;
+		margin-bottom: 5%;
+		font-size: 3.5rem;
+	}
+
+	h2 {
+		margin-bottom: 5%;
+		font-size: 1.5rem;
+	}
+
+	.desktop-menu {
+		display: block;
+		text-align: center;
+		font-size: 1.2rem;
+		background: #808080;
+		padding: 1%;
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+	nav ul li {
+		margin: auto 3% auto 3%;
+		font-size: 1.5rem;
+	}
+
+	.menu, .hamburger, .cross {
+		display: none;
+	}
+
+	img {
+		max-width: 50%;
+	}
+
+	figcaption {
+		font-size: 1rem;
+	}
+	.about	p {
+		font-size: 1.2rem;
+	}
+
+	.about {
+		float: left;
+		max-width: 50%;
+		margin-bottom: 2%;
+	}
+
+	.photo {
+		float: right;
+		max-width: 50%;
+	}
+
+	section h3 {
+		font-size: 1.5rem;
+	}
+
+	section p {
+		font-size: 1.2rem;
+	}
+
+}
+
+/* ------ END 900PX MEDIA QUERY ------ */

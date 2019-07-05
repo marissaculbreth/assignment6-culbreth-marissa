@@ -11,7 +11,7 @@ body {
 h1 {
 	color: white;
 	font-family: 'Handlee', cursive;
-	font-size: 2rem;
+	font-size: 2.3rem;
 	text-align: center;
 	margin-top: 20%;
 	margin-bottom: 10%;
@@ -25,6 +25,8 @@ h2 {
 	font-size: 1rem;
 	margin-top: 5%;
 	margin-bottom: 3%;
+  background: #808080;
+  padding: 1%;
 }
 
 h1, h2 {
@@ -106,21 +108,22 @@ h3 {
 	margin: 0 0 3% 10%;
 	width: 80%;
 	text-align: center;
-	font-size: 1.5rem;
-}
-
-.about {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .about p {
 	color: white;
 	background: rgba(128, 128, 129, 0.8);
-	padding: 3%;
+	padding: 2%;
 	font-family: 'Lato', sans-serif;
 	margin: 0 10%;
 	font-size: .8rem;
 	font-weight: bold;
+}
+
+section h2 {
+  background: #808080;
+  padding: 1%;
 }
 
 img {
@@ -178,6 +181,20 @@ footer {
 	clear: both;
 }
 
+/* START STICKY FOOTER*/
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex-grow: 1;
+}
+
+/* END STICKY FOOTER*/
+
 
 
 
@@ -220,10 +237,6 @@ footer {
 
 	.about {
 		font-size: 1.3rem;
-	}
-
-	.about p {
-		font-size: 1rem;
 	}
 
   section.gallery img {
@@ -280,19 +293,16 @@ footer {
 		font-size: 1rem;
 	}
 	.about	p {
-		font-size: 1.2rem;
+		font-size: 0.8rem;
 	}
 
-	.about {
-		float: left;
-		max-width: 50%;
-		margin-bottom: 2%;
-	}
+  .flex {
+  display: flex;
+  }
 
-	.photo {
-		float: right;
-		max-width: 50%;
-	}
+  .photo {
+    width: 60%;
+  }
 
 	section h3 {
 		font-size: 1.5rem;
@@ -305,6 +315,10 @@ footer {
   section.gallery img {
     width: 20%;
     display: inline;
+  }
+
+  section.gallery h2 {
+    font-size: 1.3rem;
   }
 
 

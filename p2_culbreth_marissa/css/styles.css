@@ -6,7 +6,7 @@
 
 
 body {
-  background-image: url(../background.jpg);
+  background-image: url(../pretty.jpg);
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-	color: white;
+	color: #AFEEEE;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	font-size: 1rem;
@@ -47,7 +47,7 @@ h1, h2 {
   right:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#999;
+  color:white;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -84,7 +84,7 @@ h1, h2 {
 /* --- END MOBILE/HAMBURGER MENU STYLES --- */
 
 .menu ul li a {
-	color: #fadadd;
+	color: #AFEEEE;
 }
 
 nav ul li {
@@ -112,10 +112,13 @@ p {
 	font-family: 'Lato', sans-serif;
 	color: white;
 	text-align: center;
-	padding: 5%;
-	background: rgba(128, 128, 128, 0.8);
-	margin-bottom: 2%;
+	padding: 2%;
 	font-size: 0.9rem;
+}
+
+.site-content p {
+	background: rgba(128, 128, 128, 0.8);
+	margin-bottom: 3%;
 }
 
 h3 {
@@ -147,11 +150,11 @@ img {
 	max-width: 60%;
 	display: block;
 	margin: auto;
+	margin-top: 2%;
 }
 
 .photo {
-	width: 50%;
-	max-width: 60%;
+	width: 70%;
 	margin: 5% auto 5% auto;
 }
 
@@ -165,14 +168,13 @@ figcaption {
 .contact {
 	text-align: center;
   justify-content: center;
-	padding: 5%;
+	padding: 3%;
 	color: white;
   min-width: 0.7em;
   border-radius: 50%;
   vertical-align: middle;
 	background: rgba(128, 128, 129, 0.8);
 	font-family: 'Lato', sans-serif;
-  width: 70%;
   margin: auto;
 }
 
@@ -198,6 +200,11 @@ span.lb-caption {
   font-family: 'Lato', sans-serif;
 }
 
+figcaption {
+	color: white;
+	font-style: italic;
+}
+
 footer {
 	background: #808080;
 	font-family: 'Lato', sans-serif;
@@ -206,7 +213,6 @@ footer {
 	margin-top: 3%;
 	clear: both;
   flex-shrink: 0;
-	padding: 0.5%;
 }
 
 body {
@@ -242,6 +248,7 @@ body {
 	h1 {
 		font-size: 3rem;
 		margin-bottom: 3.5%;
+		margin-top: 5%;
 	}
 
 	h2 {
@@ -259,12 +266,15 @@ body {
 	.desktop-menu {
 		display: block;
 		text-align: center;
-		font-size: 1rem;
 		background: #808080;
-		padding: 1%;
 		width: 100%;
 		margin-bottom: 3%;
 		margin-top: 2%;
+	}
+
+	.desktop-menu ul li a {
+		color: #AFEEEE;
+		font-size: 1rem;
 	}
 
 	nav ul li {
@@ -276,8 +286,17 @@ body {
 		display: none;
 	}
 
-	.about {
-		font-size: 1.3rem;
+	.site-content p {
+		width: 70%;
+		margin: auto;
+	}
+
+	.bio {
+		font-size: 1rem;
+	}
+
+	.about p {
+		font-size: 1rem;
 	}
 
   section.gallery img {
@@ -286,6 +305,7 @@ body {
 
   .contact {
     width: 50%;
+		margin-top: 6%;
   }
 
   .contact p {
@@ -305,14 +325,18 @@ body {
 
 	h1 {
 		padding: 1%;
-		margin-top: 10%;
-		margin-bottom: 5%;
-		font-size: 3.5rem;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		font-size: 4rem;
 	}
 
 	h2 {
 		margin-bottom: 5%;
-		font-size: 1.2rem;
+		font-size: 1rem;
+	}
+
+	h3 {
+		font-size: 0.9rem;
 	}
 
 	.desktop-menu {
@@ -337,8 +361,8 @@ body {
 	figcaption {
 		font-size: 1rem;
 	}
-	.about	p {
-		font-size: 0.8rem;
+	.about p {
+		font-size: 1rem;
 	}
 
 	p {
@@ -350,8 +374,14 @@ body {
   }
 
   .photo {
-    width: 60%;
+    width: 110%;
+		margin-top: 12%;
   }
+
+	.me {
+		width: 50%;
+		margin: auto;
+	}
 
 	section h3 {
 		font-size: 1.5rem;
@@ -371,8 +401,9 @@ body {
   }
 
   .contact p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
+
 
 
 }

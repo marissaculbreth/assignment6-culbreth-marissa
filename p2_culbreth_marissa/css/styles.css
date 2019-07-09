@@ -83,6 +83,9 @@ h1, h2 {
 
 /* --- END MOBILE/HAMBURGER MENU STYLES --- */
 
+.menu ul li a {
+	color: #fadadd;
+}
 
 nav ul li {
 	display: inline;
@@ -103,6 +106,16 @@ nav ul li a {
 
 .desktop-menu {
 	display: none;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 5%;
+	background: rgba(128, 128, 128, 0.8);
+	margin-bottom: 2%;
+	font-size: 0.9rem;
 }
 
 h3 {
@@ -132,7 +145,6 @@ section h2 {
 
 img {
 	max-width: 60%;
-	padding: 4%;
 	display: block;
 	margin: auto;
 }
@@ -191,10 +203,10 @@ footer {
 	font-family: 'Lato', sans-serif;
 	color: white;
 	text-align: center;
-	padding: 1%;
 	margin-top: 3%;
 	clear: both;
   flex-shrink: 0;
+	padding: 0.5%;
 }
 
 body {
@@ -238,6 +250,10 @@ body {
 		background: #808080;
 		width: 50%;
 		margin: auto;
+	}
+
+	p {
+		margin-top: 2%;
 	}
 
 	.desktop-menu {
@@ -296,7 +312,7 @@ body {
 
 	h2 {
 		margin-bottom: 5%;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	.desktop-menu {
@@ -323,6 +339,10 @@ body {
 	}
 	.about	p {
 		font-size: 0.8rem;
+	}
+
+	p {
+		font-size: 1.1rem;
 	}
 
   .flex {

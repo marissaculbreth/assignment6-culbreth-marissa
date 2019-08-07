@@ -9,21 +9,26 @@
 
 		<link type="text/css" rel="stylesheet" href="styles.css" />
 
+		<link type="text/css" rel="stylesheet" href="hover/css/hover.css"
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sacramento&display=swap" rel="stylesheet">
 
 
+		<link rel="stylesheet" href="animate.css">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 		<!--[if lt IE 9]>
 			<script src="scripts/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 	</head>
 
   <body>
 		<header>
+
       <section class="top">
         <div class="logo" >
           <img src="images/jellyfish.png" alt="jellyfish" title="jellyfish logo" />
@@ -36,59 +41,75 @@
 			<button class="cross">&#735;</button>
 			<nav>
 				<ul class="menu">
-					<li class><a href="index.html">HOME</a></li>
-					<li class><a href="types.html">TYPES</a></li>
-					<li class><a href="facts.html">ENCOUNTERS</a></li>
-					<li class><a href="images.html">INTERACTIONS</a></li>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="types.html">TYPES</a></li>
+					<li><a href="facts.html">ENCOUNTERS</a></li>
+					<li><a href="images.html">INTERACTIONS</a></li>
 				</ul>
 			</nav>
 			<nav>
 				<ul class="desktop-menu">
-          <li class><a href="index.html">HOME</a></li>
-					<li class><a href="types.html">TYPES</a></li>
-					<li class><a href="facts.html">ENCOUNTERS</a></li>
-					<li class><a href="images.html">INTERACTIONS</a></li>
+          <li><a href="index.html">HOME</a></li>
+					<li><a href="types.html">TYPES</a></li>
+					<li><a href="facts.html">ENCOUNTERS</a></li>
+					<li><a href="images.html">INTERACTIONS</a></li>
 			</ul>
 			</nav>
 		</header>
 
-    <h2>Jellyfish in Action</h2>
+    <h2 class="animated rotateInDownLeft">Jellyfish in Action</h2>
+
+		<article class="facts">
+			<p>Phylum: Cnidaria</p>
+			<p>Class: Scyphozoa</p>
+			<p>Classification: Invertebrate</p>
+			<p>Lifespan: One year</p>
+			<p>Weight: Up to 2kg</p>
+			<p>Body size: 2cm to 2m</p>
+			<p>Top speed: 8km/h</p>
+			<p>Diet: Fish, shrimp, crabs, tiny plants and even other species of jellyfish</p>
+
+			<p>Jellyfish have no brain, heart, bones or eyes. They are made up of a smooth, bag-like body and tentacles armed with tiny, stinging cells. These incredible invertebrates use their stinging tentacles to stun or paralyse prey before gobbling it up. The jellyfish’s mouth is found in the centre of its body. From this small opening it both eats and discards waste. And it serves another purpose, too – by squirting a jet of water from its mouth, the jellyfish can propel forward!</p>
+			<p>Jellyfish digest their food, which consists of fish, shrimp, crabs and tiny plants, very quickly. If they didn’t, they wouldn’t be able to float, being weighed down by the large, undigested grub in their body. The jellyfish itself provides a tasty meal for other ocean creatures, particularly sea turtles, who like to guzzle them up regularly. In some cultures around the world, people eat jellyfish, too. In China, they are considered a delicacy, and are also used in Chinese medicine.</p>
+			<p>Jellyfish stings can be painful to humans and, from certain species, they can even be deadly. Although these magnificent marine creatures don’t purposely attack humans, most stings occur when people accidentally touch a jellyfish.</p>
+		</article>
+
     <section class="image-grid">
 
 				<figure>
-					<img src="images/image1.jpg" alt="jellyfish">
+					<img class="hvr-wobble-vertical" src="images/image1.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image2.jpg" alt="jellyfish">
+					<img class="hvr-skew" src="images/image2.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image3.jpg" alt="jellyfish">
+					<img class="hvr-bob" src="images/image3.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image4.jpg" alt="jellyfish">
+					<img class="hvr-pop" src="images/image4.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image5.jpg" alt="jellyfish">
+					<img class="hvr-pulse" src="images/image5.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image6.jpg" alt="jellyfish">
+					<img class="hvr-grow-rotate" src="images/image6.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image7.jpg" alt="jellyfish">
+					<img class="hvr-sink" src="images/image7.jpg" alt="jellyfish">
 				</figure>
 
 				<figure>
-					<img src="images/image8.jpg" alt="jellyfish">
+					<img class="hvr-hang" src="images/image8.jpg" alt="jellyfish">
 				</figure>
 
         <figure>
-          <img src="images/image9.jpg" alt="jellyfish">
+          <img class="hvr-wobble-horizontal" src="images/image9.jpg" alt="jellyfish">
         </figure>
 
 			</section>
@@ -100,7 +121,6 @@
 
     	<script src="main.js"></script>
       <script src="hamburger.js"></script>
-
 
   </body>
 

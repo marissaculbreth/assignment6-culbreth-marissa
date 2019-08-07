@@ -75,6 +75,14 @@ h1 {
   padding: 1.5%;
 }
 
+#logo {
+  animation-name: drive;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+  animation-timing-function: linear;
+}
+
 .top {
   display: flex;
 }
@@ -121,6 +129,10 @@ figure {
   width: 25%;
 }
 
+article p {
+  padding: 1%;
+}
+
 section.gallery img {
   width: 50%;
   padding-top: 3%;
@@ -136,6 +148,10 @@ section.gallery h3 {
   text-align: center;
 }
 
+.types {
+  text-align: center;
+}
+
 .gif {
   width: 15%;
 }
@@ -145,6 +161,16 @@ footer {
   text-align: center;
   padding-top: 3%;
 }
+
+@keyframes drive {
+	from {
+		transform: translatex(-200px);
+	}
+	to {
+		transform: translatex(1000px);
+	}
+}
+
 
 
 /* ----- START 550PX MEDIA QUERY ----- */
@@ -181,6 +207,10 @@ footer {
     background-color: grey;
   }
 
+  ul li a:hover {
+    background-color: lightblue;
+  }
+
   h1 {
     font-size: 2.25rem;
   }
@@ -201,6 +231,17 @@ footer {
 
   section.gallery img {
     width: 40%;
+  }
+
+  img.jellyfish {
+    text-align:center;
+    display:block;
+    margin:auto;
+  }
+
+  .facts {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 }
@@ -246,13 +287,8 @@ footer {
     font-size: 1.1rem;
   }
 
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   section.gallery img {
-    width: 50%;
+    width: 30%;
   }
 
   section.gallery h3 {
@@ -279,7 +315,7 @@ footer {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   h2 {
@@ -288,6 +324,10 @@ footer {
 
   h4 {
     font-size: 1.2rem;
+  }
+
+  .encounter {
+    margin: auto;
   }
 }
 /* ----- END 1000PX MEDIA QUERY ----- */

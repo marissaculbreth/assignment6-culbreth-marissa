@@ -1,0 +1,293 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  background-color: lightblue;
+  height: 100%;
+}
+
+.top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: white;
+}
+
+
+/*------HAMBURGER MENU-*/
+.hamburger{
+	background: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: white;
+	border: 0;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:lightblue; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: white; text-decoration:none;}
+.menu a{text-decoration:none; color:#666; font-family: 'Open Sans Condensed', sans-serif;
+}
+/*------END-HAMBURGER----*/
+
+.desktop-menu {
+  display: none;
+}
+
+.logo {
+  padding: 1.5%;
+}
+
+.top {
+  display: flex;
+}
+
+h1 {
+  padding: 15%;
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  letter-spacing: 0.35rem;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  margin-top: 4%;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 4%;
+}
+
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 900;
+  text-decoration: underline;
+  padding: 2%;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 2%;
+}
+
+figure {
+  text-align: center;
+  padding: 2%;
+}
+
+.info, .parts {
+  width: 25%;
+}
+
+section.gallery img {
+  width: 50%;
+  padding-top: 3%;
+}
+
+section.gallery h3 {
+  width: 20%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gif {
+  width: 15%;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+/* ----- START 550PX MEDIA QUERY ----- */
+@media (min-width: 550px) {
+  .hamburger, .cross, .menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+ li {
+    display: inline;
+    margin: auto;
+  }
+
+  ul li a {
+    color: white;
+    margin: 2%;
+    padding: 0.85%;
+    letter-spacing: 0.35rem;
+    background-color: grey;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  .info {
+    float: left;
+    padding: 2%;
+  }
+
+  .parts {
+    float: right;
+    padding: 2%;
+  }
+
+  section.gallery img {
+    width: 40%;
+  }
+
+}
+/* ----- END 550PX MEDIA QUERY ----- */
+
+
+
+
+/* ----- START 750PX MEDIA QUERY ----- */
+@media (min-width: 750px) {
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  figure {
+    width: 40%;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .encounter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    width: 45%;
+    padding: 1.4%;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .home {
+    font-size: 1.1rem;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.gallery img {
+    width: 50%;
+  }
+
+  section.gallery h3 {
+    font-size: 0.7rem;
+  }
+
+}
+/* ----- END 750PX MEDIA QUERY ----- */
+
+
+/* ----- START 1000PX MEDIA QUERY ----- */
+@media (min-width: 1000px) {
+  figure {
+    width: 26%;
+    text-align: center;
+  }
+
+  .content {
+    width: 20%;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+/* ----- END 1000PX MEDIA QUERY ----- */

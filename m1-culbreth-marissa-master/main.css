@@ -28,10 +28,12 @@ li {
 h2 {
   font-family: 'Livvic', sans-serif;
   text-decoration: underline;
+  padding-left: 2%;
 }
 
 p {
   font-family: 'Livvic', sans-serif;
+  padding: 2%;
 }
 
 h3 {
@@ -42,4 +44,14 @@ h3 {
   background-color: black;
   padding: 2%;
   text-align: center;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex-grow: 1;
 }
